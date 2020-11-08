@@ -1,6 +1,6 @@
 # BetterPotter
 
-Latest test with [**Magic 7.10.5**](http://jenkins.elmakers.com/view/Plugins/job/MagicPlugin/) on **Spigot 1.16.3**
+Latest test with [**Magic 8.0.0**](http://jenkins.elmakers.com/view/Plugins/job/MagicPlugin/) on **Spigot 1.16.3**
 
 > The goal of BetterPotter is to create a set of configurations for NathanWolf's Magic plugin which faithfully recreate the world of Harry Potter in Minecraft.
 

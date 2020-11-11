@@ -3,9 +3,9 @@ currency:
   item_name: >-
     &e$amount &6$type &8(Right-click to deposit)
   limit: >-
-    &8>> &cThe limit for &4$type &cis &4$amount&c.
+  &8>> &cThe limit for &4$type &cis &4$amount&c.
   deposited: >-
-    &8>> &7Deposited &e$amount &6$type&8, &7balance&8: &6$balance
+  &8>> &7Deposited &e$amount &6$type&8, &7balance&8: &6$balance
   earned: >-
     t:&8+&e$earned
   galleon:

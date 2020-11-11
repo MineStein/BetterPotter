@@ -62,15 +62,15 @@ araniaexumai:
     cooldown: 6000
     target: other
     target_type: Spider
+    target_count: 8
     velocity: 15
     gravity: 0.03
     radius: 4
+    range: 20
     damage: 15
-    range: 16
     item_speed: 2
     living_entity_speed: 2
     push: 1
-    target_count: 8
   costs:
     mana: 30
 
@@ -100,14 +100,14 @@ araniaexumai|5:
   upgrade_required_path: year6
   upgrade_required_casts: 125
   parameters:
+    radius: 5
     range: 24
-    radius: 4.5
 
 araniaexumai|6:
   upgrade_required_path: year7
   upgrade_required_casts: 150
   parameters:
-    radius: 5
+    radius: 6
 
 araniaexumai|7:
   actions:
@@ -141,7 +141,6 @@ araniaexumai|7:
           particleSize: 10
           color: 58FAD0
   parameters:
-    radius: 6
-    repeat: 4
     delay: 1500
     duration: 6000
+    repeat: 4

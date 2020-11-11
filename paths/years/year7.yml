@@ -1,18 +1,18 @@
 year7:
   spells:
     - atmos
-    - meteo
-    - piertotum
-    - ventus
-    - vulnera
     - confringo
-    - volo
     - erecto
     - expulso
     - fiendfyre
-    - incarcifors
-    - obliviate
     - glisseo
+    - incarcifors
+    - meteo
+    - obliviate
+    - piertotum
+    - ventus
+    - volo
+    - vulnera
   required_spells:
     - protegomaxima
   upgrade_commands:

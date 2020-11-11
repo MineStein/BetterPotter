@@ -1,24 +1,24 @@
 year6:
   spells:
-    - apparate
     - aguamenti
+    - apparate
+    - baubillious
+    - confundo
     - disillusion
+    - engorgio
+    - flintifors
+    - furnunculus
+    - lacarnum
     - levicorpus
     - liberacorpus
-    - reducio
-    - engorgio
-    - sectumsempra
-    - revelio
-    - baubillious
-    - furnunculus
-    - stinginghex
-    - protegototalus
-    - lacarnum
-    - titillando
-    - flintifors
     - lightningcurse
-    - salviohexia
     - portus
-    - confundo
+    - protegototalus
+    - reducio
+    - revelio
+    - salviohexia
+    - sectumsempra
+    - stinginghex
+    - titillando
   required_spells:
     - patronus

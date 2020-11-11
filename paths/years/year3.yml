@@ -1,21 +1,21 @@
 year3:
   spells:
-    - bombarda
-    - bogies
-    - diffindo
-    - expelliarmus
-    - fumos
-    - petrificustotalus
-    - orchideous
-    - vermillious
-    - lumosmaxima
     - aberto
-    - flamefreezingcharm
-    - whippinghex
-    - finestra
-    - waddiwasi
+    - bogies
+    - bombarda
+    - diffindo
     - epoximise
-    - sluguluseructo
+    - expelliarmus
     - felifors
+    - finestra
+    - flamefreezingcharm
+    - fumos
+    - lumosmaxima
+    - orchideous
+    - petrificustotalus
+    - sluguluseructo
+    - vermillious
+    - waddiwasi
+    - whippinghex
   required_spells:
     - glacius

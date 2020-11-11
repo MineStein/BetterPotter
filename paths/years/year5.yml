@@ -1,19 +1,19 @@
 year5:
   spells:
+    - avis
+    - cascadingjinx
     - colorvaria
     - conjunctivitis
-    - evanesco
-    - stupefy
-    - rennervate
-    - avis
-    - spongify
-    - firestorm
-    - pulsus
-    - singingcharm
     - defodio
-    - lapifors
+    - evanesco
+    - firestorm
     - incarcerous
-    - cascadingjinx
+    - lapifors
+    - pulsus
     - reducto
+    - rennervate
+    - singingcharm
+    - spongify
+    - stupefy
   required_spells:
     - aparecium

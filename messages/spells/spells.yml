@@ -1722,17 +1722,27 @@ spells:
       Stuns the target temporarily.
   stupefy|2:
     upgrade_description: |-
-      Increased damage.
-      Increased duration.
+      Increased damage. &3&o(2->3)
+      Increased range. &3&o(20m->24m)
   stupefy|3:
     upgrade_description: |-
-      Increased range.
-      Increased damage.
-      Increased duration.
+      Increased duration. &3&o(5s->6s)
+      Increased range. &3&o(24m->28m)
   stupefy|4:
     upgrade_description: |-
-      Increased damage.
-      Increased duration.
+      Increased damage. &3&o(3->4)
+      Increased range. &3&o(28m->32m)
+  stupefy|5:
+    upgrade_description: |-
+      Increased duration. &3&o(6s->7s)
+      Increased range. &3&o(32m->36m)
+  stupefy|6:
+    upgrade_description: |-
+      Increased damage. &3&o(4->5)
+      Increased range. &3&o(36m->40m)
+  stupefy|7:
+    upgrade_description: |-
+      Increased duration. &3&o(7s->8s)
 
   tarantallegra:
     name: >-

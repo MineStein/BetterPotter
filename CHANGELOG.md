@@ -8,6 +8,12 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Bett
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
 
+### 11/11/20
+
+* Rebalanced Stupefy.
+* New format of upgrade messages started on Stupefy.
+* Fixes and messages for Magic 8.
+
 ### 10/21/20
 
 * Message and icon fixes for year path upgrades.

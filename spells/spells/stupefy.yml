@@ -3,7 +3,7 @@ stupefy:
   icon: diamond_axe{CustomModelData:41}
   icon_disabled: diamond_hoe{CustomModelData:41}
   upgrade_required_path: year5
-  upgrade_required_casts: 25
+  upgrade_required_casts: 15
   category: dada
   worth: 10 ac
   actions:
@@ -27,52 +27,69 @@ stupefy:
           updateLocations: false
           updateDirections: false
     tick:
-      - particle: redstone
-        location: target
-        particle_count: 15
-        particle_offset_x: 0.1
-        particle_offset_y: 0.1
-        particle_offset_z: 0.1
-        color: FF0000
+      - location: target
+        effectlib:
+          class: Sphere
+          particle: spell_mob
+          color: FF0000
+          duration: 50
+          radius: 0.1
     hit:
       - class: EffectSingle
         location: target
+        sound: magic.hit
         firework: burst
         color: 8b0000
         color2: FF0000
   parameters:
-    allow_max_range: true
-    velocity: 100
-    hitbox: true
-    range: 24
-    target_type: LivingEntity
-    damage: 1
-    target_breakables: 1
     cooldown: 4000
+    target_type: LivingEntity
+    range: 20
+    velocity: 40
+    hitbox: true
+    damage: 2
     reorient: false
     add_effects:
       confusion: 2
     duration: 5000
   costs:
-    mana: 15
+    mana: 30
 
 stupefy|2:
-  upgrade_required_path: year6
-  upgrade_required_casts: 50
+  upgrade_required_path: year5
+  upgrade_required_casts: 30
   parameters:
-    cooldown: 2000
-    damage: 1
-    duration: 7000
+    damage: 3
+    range: 24
 
 stupefy|3:
-  upgrade_required_path: year7
-  upgrade_required_casts: 75
+  upgrade_required_path: year5
+  upgrade_required_casts: 45
   parameters:
-    range: 48
-    damage: 1
-    duration: 9000
+    duration: 6000
+    range: 28
 
 stupefy|4:
+  upgrade_required_path: year6
+  upgrade_required_casts: 60
   parameters:
-    damage: 1
-    duration: 10000
+    damage: 4
+    range: 32
+
+stupefy|5:
+  upgrade_required_path: year6
+  upgrade_required_casts: 75
+  parameters:
+    duration: 7000
+    range: 36
+
+stupefy|6:
+  upgrade_required_path: year7
+  upgrade_required_casts: 100
+  parameters:
+    damage: 5
+    range: 40
+
+stupefy|7:
+  parameters:
+    duration: 8000

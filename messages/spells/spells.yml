@@ -173,24 +173,27 @@ spells:
   araniaexumai|2:
     upgrade_description: |-
       Increased damage.
-      Able to one-shot small acromantula.
+      &3(15-20)
   araniaexumai|3:
     upgrade_description: |-
       Increased damage.
+      &3(20-25)
   araniaexumai|4:
     upgrade_description: |-
-      Increased damage
-      Able to one-shot regular acromantula.
+      Increased damage.
+      &3(25-30)
   araniaexumai|5:
     upgrade_description: |-
-      Increased range.
       Increased radius.
+      &3(4m->5m)
+      Increased range.
+      &3(20m->24m)
   araniaexumai|6:
     upgrade_description: |-
       Increased radius.
+      &3(5m->6m)
   araniaexumai|7:
     upgrade_description: |-
-      Increased radius.
       Creates a lingering area of effect.
 
   arresto:
@@ -1722,27 +1725,38 @@ spells:
       Stuns the target temporarily.
   stupefy|2:
     upgrade_description: |-
-      Increased damage. &3&o(2->3)
-      Increased range. &3&o(20m->24m)
+      Increased damage.
+      &3(2->3)
+      Increased range.
+      &3(20m->24m)
   stupefy|3:
     upgrade_description: |-
-      Increased duration. &3&o(5s->6s)
-      Increased range. &3&o(24m->28m)
+      Increased duration.
+      &3(5s->6s)
+      Increased range.
+      &3(24m->28m)
   stupefy|4:
     upgrade_description: |-
-      Increased damage. &3&o(3->4)
-      Increased range. &3&o(28m->32m)
+      Increased damage.
+      &3(3->4)
+      Increased range.
+      &3(28m->32m)
   stupefy|5:
     upgrade_description: |-
-      Increased duration. &3&o(6s->7s)
-      Increased range. &3&o(32m->36m)
+      Increased duration.
+      &3(6s->7s)
+      Increased range.
+      &3(32m->36m)
   stupefy|6:
     upgrade_description: |-
-      Increased damage. &3&o(4->5)
-      Increased range. &3&o(36m->40m)
+      Increased damage.
+      &3(4->5)
+      Increased range.
+      &3(36m->40m)
   stupefy|7:
     upgrade_description: |-
-      Increased duration. &3&o(7s->8s)
+      Increased duration.
+      &3(7s->8s)
 
   tarantallegra:
     name: >-

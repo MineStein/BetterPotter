@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 11/11/20
 
+* Adjusted required spell language.
 * Adjusted Arania Exumai and gave it new upgrade messages.
 * Rebalanced Stupefy.
 * New format of upgrade messages started on Stupefy.

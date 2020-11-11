@@ -27,7 +27,7 @@ currency:
     name: >-
       &eCompletion Credits
     description: >-
-      &7CC can be spent at a &eFinal Spell Teacher &7to learn final spells
+      &7CC can be spent at a &eRequired Spell Teacher &7to learn required spells
       for each year&8. &7You can obtain them by completing the
       questline for your year&8.
   mobxp:

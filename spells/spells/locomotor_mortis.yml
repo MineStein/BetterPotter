@@ -46,7 +46,7 @@ locomotormortis:
   parameters:
     target: other
     hitbox: true
-    range: 16
+    range: 20
     velocity: 30
     effect_slow: 255
     duration: 3000
@@ -64,7 +64,7 @@ locomotormortis|3:
   upgrade_required_path: year4
   upgrade_required_casts: 75
   parameters:
-    range: 20
+    range: 24
 
 locomotormortis|4:
   upgrade_required_path: year5
@@ -76,13 +76,13 @@ locomotormortis|5:
   upgrade_required_path: year6
   upgrade_required_casts: 125
   parameters:
-    duration: 6000
+    range: 28
 
 locomotormortis|6:
   upgrade_required_path: year7
   upgrade_required_casts: 150
   parameters:
-    range: 24
+    duration: 6000
 
 locomotormortis|7:
   parameters:

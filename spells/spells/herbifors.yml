@@ -3,7 +3,7 @@ herbifors:
   icon_disabled: diamond_hoe{CustomModelData:133}
   category: herbology
   worth: 5 ac
-  upgrade_required_casts: 50
+  upgrade_required_casts: 10
   effects:
     cast:
       - class: EffectSingle
@@ -72,20 +72,59 @@ herbifors:
   parameters:
     target: other
     target_type: Player
-    range: 8
+    range: 12
     hitbox: true
-    undo: 5000
+    undo: 4000
+    total_duration: 4000
     cooldown: 12000
   costs:
     mana: 30
 
 herbifors|2:
-  upgrade_required_casts: 75
+  upgrade_required_casts: 20
   parameters:
-    undo: 8000
     range: 16
 
 herbifors|3:
+  upgrade_required_casts: 30
+  upgrade_required_path: year2
   parameters:
-    undo: 10000
+    undo: 5000
+    total_duration: 5000
+
+herbifors|4:
+  upgrade_required_casts: 40
+  upgrade_required_path: year2
+  parameters:
+    range: 20
+
+herbifors|5:
+  upgrade_required_casts: 40
+  upgrade_required_path: year2
+  parameters:
+    undo: 6000
+    total_duration: 6000
+
+herbifors|6:
+  upgrade_required_casts: 50
+  upgrade_required_path: year3
+  parameters:
     range: 24
+
+herbifors|7:
+  upgrade_required_casts: 60
+  upgrade_required_path: year3
+  parameters:
+    undo: 7000
+    total_duration: 7000
+
+herbifors|8:
+  upgrade_required_casts: 70
+  upgrade_required_path: year3
+  parameters:
+    range: 28
+
+herbifors|9:
+  parameters:
+    undo: 8000
+    total_duration: 8000

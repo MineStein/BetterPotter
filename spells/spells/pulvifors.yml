@@ -22,17 +22,18 @@ pulvifors:
         effect: step_sound
         period: 2
   parameters:
-    protection_count: 1
-    duration: 5000
     cooldown: 10000
+    duration: 4000
+    protection_count: 1
 
 pulvifors|2:
   upgrade_required_casts: 50
   upgrade_required_path: year3
   parameters:
-    duration: 10000
-    cooldown: 80000
+    cooldown: 9000
+    duration: 6000
 
 pulvifors|3:
   parameters:
-    cooldown: 5000
+    cooldown: 8000
+    duration: 8000

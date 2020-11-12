@@ -1,3 +1,21 @@
+# This file outlines the messages tied to each spell that is castable with a
+# traditional wand. Names, descriptions, upgrade descriptions, cast messages,
+# etc. are configured here.
+
+# A bit about upgrade descriptions. I try to keep the language consistent
+# throughout them so that it's clear what is being gained from leveling the
+# spell.
+#
+# Moving forward I'm working towards displaying values for what is being
+# enhanced with each spell level for transparency. These values usually fit
+# into one of the formats below.
+#
+# Timings: &3({X}s->{Y}s) - Durations, cooldowns, etc.
+# Flat number: &3({X}->{Y}) - Damage values, etc.
+# Distance: &3({X}m->{Y}m) - Ranges, radiuses, etc.
+# Percentages: &3({X}%->{Y}%) - Fizzle chances, backfire chances, weights, etc.
+# Potion effects: &5({EFFECT} {LEVEL}->{EFFECT} {LEVEL}) - Potion effects.
+
 spells:
   aberto:
     name: >-
@@ -404,11 +422,15 @@ spells:
   bubblehead|2:
     upgrade_description: |-
       Increased duration.
+      &3(15s-20s)
       Decreased charge time.
+      &3(4s->3s)
   bubblehead|3:
     upgrade_description: |-
       Increased duration.
+      &3(20s->25s)
       Decreased charge time.
+      &3(2s->1s)
 
   carperetractum:
     name: >-
@@ -449,22 +471,28 @@ spells:
   cheeringcharm|2:
     upgrade_description: |-
       Increased duration.
+      &3(5s->6s)
   cheeringcharm|3:
     upgrade_description: |-
-      Increased speed.
-      Increased jump.
+      Increased effect.
+      &5(Speed I->Speed II)
+      &5(Jump I->Jump II)
   cheeringcharm|4:
     upgrade_description: |-
       Increased duration.
+      &3(6s-7s)
   cheeringcharm|5:
     upgrade_description: |-
-      Increased speed.
+      Increased effect.
+      &5(Speed II->Speed III)
   cheeringcharm|6:
     upgrade_description: |-
       Increased duration.
+      &3(7s-8s)
   cheeringcharm|7:
     upgrade_description: |-
       Increased duration.
+      &3(8s-10s)
 
   colloportus:
     description: >-
@@ -845,34 +873,44 @@ spells:
   flagrate|2:
     upgrade_description: |-
       Decreased chance of fizzling.
+      &3(55%->50%)
   flagrate|3:
     upgrade_description: |-
       Decreased chance of fizzling.
+      &3(50%->45%)
   flagrate|4:
     upgrade_description: |-
       Decreased chance of fizzling.
+      &3(45%->40%)
   flagrate|5:
     upgrade_description: |-
       Decreased chance of fizzling.
+      &3(40%->35%)
   flagrate|6:
     upgrade_description: |-
       Decreased chance of fizzling.
+      &3(35%->30%)
   flagrate|7:
     upgrade_description: |-
       Decreased chance of fizzling.
+      &3(30%->25%)
   flagrate|8:
     upgrade_description: |-
       Decreased chance of fizzling.
-      Increased text clarity.
+      &3(25%->20%)
+      Your name becomes more discernable.
   flagrate|9:
     upgrade_description: |-
       Decreased chance of fizzling.
+      &3(20%->15%)
   flagrate|10:
     upgrade_description: |-
       Decreased chance of fizzling.
+      &3(15%->10%)
   flagrate|11:
     upgrade_description: |-
       Decreased chance of fizzling.
+      &3(10%->5%)
   flagrate|12:
     upgrade_description: |-
       No chance of fizzling.
@@ -912,43 +950,57 @@ spells:
   flipendo|2:
     upgrade_description: |-
       Increased damage.
+      &3(1->2)
   flipendo|3:
     upgrade_description: |-
       Increased range.
+      &3(12m->16m)
   flipendo|4:
     upgrade_description: |-
-      Increased force.
+      Increased knockback.
+      &3(0.5->1)
   flipendo|5:
     upgrade_description: |-
-      Can now push multiple things at once.
+      Increased target count.
+      &3(1->3)
   flipendo|6:
     upgrade_description: |-
       Increased damage.
+      &3(2->3)
   flipendo|7:
     upgrade_description: |-
       Increased damage.
+      &3(3->4)
   flipendo|8:
     upgrade_description: |-
       Increased range.
+      &3(16m->20m)
   flipendo|9:
     upgrade_description: |-
-      Increased force.
+      Increased knockback.
+      &3(1->1.5)
   flipendo|10:
     upgrade_description: |-
-      Increased force.
+      Increased knockback.
+      &3(1.5->2)
   flipendo|11:
     upgrade_description: |-
       Increased range.
+      &3(20m->24m)
   flipendo|12:
     upgrade_description: |-
       Increased damage.
-      Can now push more things at once.
+      &3(4->5)
+      Increased target count.
+      &3(3-5)
   flipendo|13:
     upgrade_description: |-
-      Can now push more things at once.
+      Increased target count.
+      &3(5-6)
   flipendo|14:
     upgrade_description: |-
       Increased damage.
+      &3(5->6)
 
   fourpoint:
     name: >-
@@ -1030,12 +1082,36 @@ spells:
       Causes the target to sprout a flower from their head.
   herbifors|2:
     upgrade_description: |-
-      Increased duration.
       Increased range.
+      &3(12m->16m)
   herbifors|3:
     upgrade_description: |-
       Increased duration.
+      &3(4s->5s)
+  herbifors|4:
+    upgrade_description: |-
       Increased range.
+      &3(16m->20m)
+  herbifors|5:
+    upgrade_description: |-
+      Increased duration.
+      &3(5s->6s)
+  herbifors|6:
+    upgrade_description: |-
+      Increased range.
+      &3(20m->24m)
+  herbifors|7:
+    upgrade_description: |-
+      Increased duration.
+      &3(6s->7s)
+  herbifors|8:
+    upgrade_description: |-
+      Increased range.
+      &3(24m->28m)
+  herbifors|9:
+    upgrade_description: |-
+      Increased duration.
+      &3(7s->8s)
 
   homenumrevelio:
     name: >-
@@ -1272,21 +1348,27 @@ spells:
   locomotormortis|2:
     upgrade_description: |-
       Increased duration.
+      &3(3s->4s)
   locomotormortis|3:
     upgrade_description: |-
       Increased range.
+      &3(20m->24m)
   locomotormortis|4:
     upgrade_description: |-
       Increased duration.
+      &3(4s->5s)
   locomotormortis|5:
     upgrade_description: |-
-      Increased duration.
+      Increased range.
+      &3(24m->28m)
   locomotormortis|6:
     upgrade_description: |-
-      Increased range.
+      Increased duration.
+      &3(5s->6s)
   locomotormortis|7:
     upgrade_description: |-
       Increased range.
+      &3(28m->32m)
 
   locomotorwibbly:
     name: >-
@@ -1345,9 +1427,28 @@ spells:
   lumossolem|2:
     upgrade_description: |-
       Increased duration.
+      &3(5s->10s)
+      Increased range.
+      &3(16m->20m)
   lumossolem|3:
     upgrade_description: |-
+      Increased range.
+      &3(20m->24m)
+      Decreased fizzle chance.
+      &3(15%->10%)
+  lumossolem|4:
+    upgrade_description: |-
       Increased duration.
+      &3(10s->15s)
+  lumossolem|5:
+    upgrade_description: |-
+      Decreased fizzle chance.
+      &3(10%->5%)
+  lumossolem|6:
+    upgrade_description: |-
+      Increased range.
+      &3(24m->28m)
+      No chance of fizzling.
 
   melofors:
     name: >-
@@ -1532,10 +1633,15 @@ spells:
   pulvifors|2:
     upgrade_description: |-
       Increased duration.
+      &3(4s->6s)
       Decreased cooldown.
+      &3(10s->9s)
   pulvifors|3:
     upgrade_description: |-
+      Increased duration.
+      &3(6s->8s)
       Decreased cooldown.
+      &3(9s->8s)
 
   reducio:
     cast: ""
@@ -1640,10 +1746,12 @@ spells:
       classwork.
   scribblifors|2:
     upgrade_description: |-
-      Decreased cooldown.
+      Decreased charge time.
+      &3(4s->3s)
   scribblifors|3:
     upgrade_description: |-
-      Decreased cooldown.
+      Decreased charge time.
+      &3(3s->2s)
 
   sectumsempra:
     name: >-
@@ -1679,24 +1787,35 @@ spells:
   snowball|2:
     upgrade_description: |-
       Decreased charge time.
-      Increased snowball count.
-      Decreased projectile spread.
+      &3(2s->1.5s)
       Increased damage.
+      &3(2->3)
+      Increased projectile count.
+      &3(6->8)
+      Decreased projectile spread.
+      &3(8->6)
   snowball|3:
     upgrade_description: |-
       Decreased charge time.
-      Decreased projectile spread.
+      &3(1.5s->1s)
       Increased damage.
+      &3(3->4)
+      Decreased projectile spread.
+      &3(6->4)
   snowball|4:
     description: >-
       Conjures a volley of enchanted snowballs that slow down and damage nearby
       targets.
     upgrade_description: |-
+      Now creates an area of effect.
+      Increased effect.
+      &5(Slowness I->Slowness II)
       Increased projectile spread.
-      Increased snowball count.
+      &3(4->20)
+      Increased projectile count.
+      &3(8->10)
       Decreased damage.
-      Increased slowness.
-      Now works in an area of effect.
+      &3(4->2)
 
   spongify:
     cast: ""

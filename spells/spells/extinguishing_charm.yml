@@ -1,3 +1,5 @@
+# TODO Needs to be redone. Do away with spell class and fix messaging.
+
 extinguishingcharm:
   icon: diamond_axe{CustomModelData:199}
   icon_disabled: diamond_hoe{CustomModelData:199}

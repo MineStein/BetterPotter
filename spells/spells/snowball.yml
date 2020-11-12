@@ -44,8 +44,8 @@ snowball:
     warmup: 2000
     count: 6
     projectile: Snowball
-    spread: 10
-    damage: 1
+    spread: 8
+    damage: 2
     duration: 4000
     add_effects:
       slow: 1
@@ -60,7 +60,7 @@ snowball|2:
     warmup: 1500
     count: 8
     spread: 6
-    damage: 1.5
+    damage: 3
 
 snowball|3:
   upgrade_required_path: year4
@@ -68,8 +68,8 @@ snowball|3:
   parameters:
     delay: 1000
     warmup: 1000
-    spread: 2
-    damage: 2
+    spread: 4
+    damage: 4
 
 snowball|4:
   actions:
@@ -99,7 +99,7 @@ snowball|4:
   parameters:
     spread: 20
     radius: 3
-    damage: 0.5
+    damage: 2
     count: 10
     add_effects:
       slow: 2

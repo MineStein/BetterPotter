@@ -29,7 +29,7 @@ flipendo:
     item_speed: 2
     living_entity_speed: .5
     push: 1
-    damage: 0.5
+    damage: 1
     hitbox: true
     cooldown: 4000
   costs:
@@ -39,7 +39,7 @@ flipendo|2:
   upgrade_required_path: year1
   upgrade_required_casts: 25
   parameters:
-    damage: 1
+    damage: 2
 
 flipendo|3:
   upgrade_required_path: year2
@@ -64,13 +64,13 @@ flipendo|6:
   upgrade_required_path: year3
   upgrade_required_casts: 125
   parameters:
-    damage: 1.5
+    damage: 3
 
 flipendo|7:
   upgrade_required_path: year4
   upgrade_required_casts: 150
   parameters:
-    damage: 2
+    damage: 4
 
 flipendo|8:
   upgrade_required_path: year4
@@ -102,7 +102,7 @@ flipendo|12:
   upgrade_required_casts: 275
   parameters:
     target_count: 5
-    damage: 2.5
+    damage: 5
 
 flipendo|13:
   upgrade_required_path: year7
@@ -112,4 +112,4 @@ flipendo|13:
 
 flipendo|14:
   parameters:
-    damage: 3
+    damage: 6

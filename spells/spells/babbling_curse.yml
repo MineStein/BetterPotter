@@ -14,7 +14,7 @@ babblingcurse:
           - class: Chat
   effects:
     cast:
-      - sound: betterpotter.whoosh
+      - sound: potterplus.whoosh
     tick:
       - particle: spell_mob
         color: FFFFFF

@@ -7,7 +7,7 @@ open_wandbox:
       - class: Command
   effects:
     cast:
-      - sound: betterpotter.whoosh_loud
+      - sound: potterplus.whoosh_loud
       - class: EffectRepeat
         delay: 500
         location: origin

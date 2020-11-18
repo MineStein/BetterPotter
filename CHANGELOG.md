@@ -2,11 +2,15 @@
 
 Changes are organized here for record-keeping purposes. Changes are organized from top to bottom by order of most to least recent.
 
-There is a relatively up-to-date and accurate roadmap and list of upcoming changes in the document [here](https://github.com/grisstyl/BetterPotter/blob/master/ROADMAP.md).
+There is a relatively up-to-date and accurate roadmap and list of upcoming changes in the document [here](https://github.com/grisstyl/PotterPlus/blob/master/ROADMAP.md).
 
-There is a list of current, known issues [here](https://github.com/grisstyl/BetterPotter/issues).
+There is a list of current, known issues [here](https://github.com/grisstyl/PotterPlus/issues).
 
-This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/BetterPotter/commits/master) for the absolute list.
+This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/PotterPlus/commits/master) for the absolute list.
+
+### 11/17/20
+
+* Re-branded as PotterPlus.
 
 ### 11/12/20
 

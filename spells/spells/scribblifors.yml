@@ -30,7 +30,7 @@ scribblifors:
   effects:
     cast:
       - class: EffectSingle
-        sound: betterpotter.dark_whoosh
+        sound: potterplus.dark_whoosh
     tick:
       - location: target
         effectlib:

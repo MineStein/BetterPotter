@@ -28,7 +28,7 @@ snowball:
           particleOrbital: snowball
           duration: $delay
     launch:
-      - sound: betterpotter.cast_sharp
+      - sound: potterplus.cast_sharp
     hit:
       - sound: magic.hit
         sound_volume: 0.5

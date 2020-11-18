@@ -11,37 +11,37 @@ appearances:
     options:
       - item: appearance_black
         requirements:
-          - permission: betterpotter.appearance_black
+          - permission: potterplus.appearance_black
       - item: appearance_brown
         requirements:
-          - permission: betterpotter.appearance_brown
+          - permission: potterplus.appearance_brown
       - item: appearance_white
         requirements:
-          - permission: betterpotter.appearance_white
+          - permission: potterplus.appearance_white
       - item: appearance_light_brown
         requirements:
-          - permission: betterpotter.appearance_light_brown
+          - permission: potterplus.appearance_light_brown
       - item: appearance_grey
         requirements:
-          - permission: betterpotter.appearance_grey
+          - permission: potterplus.appearance_grey
       - item: appearance_black_and_grey
         requirements:
-          - permission: betterpotter.appearance_black_and_grey
+          - permission: potterplus.appearance_black_and_grey
       - item: appearance_harry_potter
         requirements:
-          - permission: betterpotter.appearance_harry_potter
+          - permission: potterplus.appearance_harry_potter
       - item: appearance_elder
         requirements:
-          - permission: betterpotter.appearance_elder
+          - permission: potterplus.appearance_elder
       - item: appearance_narcissa_malfoy
         requirements:
-          - permission: betterpotter.appearance_narcissa_malfoy
+          - permission: potterplus.appearance_narcissa_malfoy
       - item: appearance_ron_weasley_first
         requirements:
-          - permission: betterpotter.appearance_ron_weasley_first
+          - permission: potterplus.appearance_ron_weasley_first
       - item: appearance_bellatrix_lestrange_first
         requirements:
-          - permission: betterpotter.appearance_bellatrix_lestrange_first
+          - permission: potterplus.appearance_bellatrix_lestrange_first
       - item: appearance_draco_malfoy
         requirements:
-          - permission: betterpotter.appearance_draco_malfoy
+          - permission: potterplus.appearance_draco_malfoy

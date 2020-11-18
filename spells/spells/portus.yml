@@ -14,7 +14,7 @@ portus:
   effects:
     cast:
       - class: EffectSingle
-        sound: betterpotter.swish
+        sound: potterplus.swish
         location: origin
         source_location: feet
         effectlib:

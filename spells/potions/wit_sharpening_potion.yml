@@ -13,7 +13,7 @@ wit_sharpening_potion_ability:
   effects:
     cast:
       - class: EffectSingle
-        sound: betterpotter.cast_sharp
+        sound: potterplus.cast_sharp
         effectlib:
           class: Sphere
           particle: enchantment_table

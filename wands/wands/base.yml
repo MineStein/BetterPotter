@@ -21,7 +21,7 @@ wandbox:
   right_click: replace
   effects:
     replace:
-      - sound: betterpotter.whoosh_loud
+      - sound: potterplus.whoosh_loud
       - class: EffectRepeat
         delay: 500
         location: origin
@@ -52,7 +52,7 @@ randomizedpotterwand:
   randomize_icon: diamond_hoe{CustomModelData:138}
   effects:
     randomize:
-      - sound: betterpotter.swish
+      - sound: potterplus.swish
         source_location: feet
         effectlib:
           class: AnimatedBall

@@ -21,7 +21,7 @@ lumos:
           - class: PotionEffect
   effects:
     cast:
-      - sound: betterpotter.cast_quiet
+      - sound: potterplus.cast_quiet
     light:
       - class: EffectSingle
         location: origin

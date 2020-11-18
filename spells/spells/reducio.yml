@@ -12,7 +12,7 @@ reducio:
   effects:
     cast:
       - class: EffectSingle
-        sound: betterpotter.cast_quiet
+        sound: potterplus.cast_quiet
         location: origin
         effectlib:
           class: ConeEffect
@@ -44,7 +44,7 @@ reducio:
       - class: EffectSingle
         location: target
         source_location: feet
-        sound: betterpotter.whoosh
+        sound: potterplus.whoosh
         effectlib:
           class: Circle
           duration: 1000

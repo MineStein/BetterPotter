@@ -20,3 +20,19 @@ spells:
       $item
     at_limit: >-
       &8>> &5You can only choose your path once.
+  sounddemo:
+    name: >-
+      Sound Demo
+    title: >-
+      Select a sound to demo
+    selected_free: |-
+      t:&dNow playing
+      $item
+  fxdemo:
+    name: >-
+      FX Demo
+    title: >-
+      Select an effect to demo
+    selected_free: |-
+      t:&dNow playing
+      $item

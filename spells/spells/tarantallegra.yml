@@ -27,7 +27,6 @@ tarantallegra:
           color: 380B61
           radius: 1.5
           duration: $duration
-          updateLocations: false
   actions:
     cast:
       - class: CustomProjectile

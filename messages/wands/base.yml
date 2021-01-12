@@ -1,40 +1,39 @@
 wands:
-  ticket:
+  wandticket:
     name: >-
-      &5Wand Ticket
+      &dWand Ticket
     description: >-
       &7You can trade this for your very first wand at a wand shop&8.
   wandbox:
     name: >-
-      &3Wand Box &8(Right-Click)
+      &dWand Box &6(Right-Click)
     description: >-
       &7Contains your very first wand&8.
-  randomizedpotterwand:
+  playerwand:
     description: >-
       $length Inches $flex $wood with $core
     name: >-
       Wand
-    randomized_description: >-
-      &bContains your very own wand.
-      What adventures await?
     wand_instructions_header: |-
       &8 ----------------------------------------------------
       &8|
       &8|   &d&lWAND BASICS
+    bound_instructions: |-
       &8|
+      &8| &cYour wand is bound to you and cannot be dropped
     spell_instructions: |-
-      &8| &7> &eLeft-click &7to cast spells&8.
-      &8| &7> &eRight-click&8/&eDrop key &7to open and close the spell menu&8.
       &8|
-      &8| &7> &aEarn AC &7by attending classes and doing quests&8.
-      &8| &7> &aUnlock new spells &7by spending &eAC &7at a &eSpell Shop&8.
+      &8| &7> &eSwing &7to cast spells&8.
+      &8| &7> &eUse Item &7or &eDrop &7to open and close the spell menu&8.
+    mana_instructions: |-
+      &8|
+      &8| &dSpells require &aEnergy &dto be cast&8, &dshown in the &aXP Bar
+    inventory_instructions: |-
+      &8|
+      &8| &7> &eOpen your inventory &7to manage hotbar spells&8.
+      &8| &7> &eUse number keys &7to select the desired spell&8.
+      &8| &7> &eSwap Hands &7to cycle hotbars&8.
     wand_instructions_footer: |-
       &8|
       &8 ----------------------------------------------------
-    inventory_instructions: |-
-      &8| &7> &eRight-click&8/&eDrop key &7to open and close the spell menu&8.
-      &8| &7> &eOpen your inventory &7to manage hotbar spells&8.
-      &8| &7> &eUse number keys &7to select the desired spell&8.
-      &8| &7> &eSwap key &7to cycle hotbars&8.
     enchant_instructions: ""
-    bound_instructions: ""

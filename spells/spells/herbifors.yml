@@ -31,10 +31,17 @@ herbifors:
         firework: burst
         color: 2dfc42
         location: target
+        effectlib:
+          class: Warp
+          particle: block_crack
+          material: grass
+          duration: $total_duration
+          rings: 3
   actions:
     cast:
       - class: CustomProjectile
         actions:
+          - class: Message
           - class: Random
             actions:
               - class: Hat
@@ -77,6 +84,8 @@ herbifors:
     undo: 4000
     total_duration: 4000
     cooldown: 12000
+    message: "&2A plant sprouts from your head!"
+    message_type: action_bar
   costs:
     mana: 30
 

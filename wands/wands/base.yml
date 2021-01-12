@@ -12,12 +12,16 @@ base_wand:
   # Leave wand messages on
   quiet: 0
 
+wandticket:
+  inherit: ticket
+
 wandbox:
   inherit: false
   icon: wooden_hoe{CustomModelData:100}
+  undroppable: true
   lore:
     - "$description"
-  replacement: randomizedpotterwand
+  replacement: playerwand
   right_click: replace
   effects:
     replace:
@@ -29,27 +33,18 @@ wandbox:
         color: FFFFFF
         color2: random
 
-potterwand:
-  # Defines how many spell hotbars the wand will have
-  hotbar_count: 2
-  # Defines what spell the wand has selected by default
-  active_spell: lumos
-  # Make sure spell messages are on
-  quiet: 0
-  # Defines what spells are in the wand's inventory
-  spells:
-    - lumos
-  # Defines what mage classes can use this wand
-  classes:
-    - wizard
-    - auror
-    - darkwizard
-    - professor
-
-randomizedpotterwand:
-  # Defines which icons the wand could be created from
+playerwand:
+  inherit: base_wand
   icon: wooden_hoe{CustomModelData:1},wooden_hoe{CustomModelData:2},wooden_hoe{CustomModelData:3},wooden_hoe{CustomModelData:4},wooden_hoe{CustomModelData:5}
   randomize_icon: diamond_hoe{CustomModelData:138}
+  display_name: "&d$name &8> &6$spell"
+  hotbar_count: 2
+  quiet: 0
+  active_spell: lumos
+  spells:
+    - lumos
+  classes:
+    - wizard
   effects:
     randomize:
       - sound: potterplus.swish

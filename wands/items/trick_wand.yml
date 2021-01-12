@@ -1,16 +1,38 @@
+trickwandbox:
+  inherit: wandbox
+  replacement: trickwand
+  right_click: replace
+  effects:
+    replace:
+      - sound: potterplus.whoosh_loud
+        firework: burst
+        color: random
+        color2: random
+      - sound: entity_player_burp
+
 trickwand:
-  icon: stick
-  mode: cast
-  cost_reduction: 10
-  indestructible: false
+  icon: wooden_hoe{CustomModelData:1},wooden_hoe{CustomModelData:2},wooden_hoe{CustomModelData:3},wooden_hoe{CustomModelData:4},wooden_hoe{CustomModelData:5}
+  mode: inventory
+  left_click: cast
+  right_click: toggle
+  swap: toggle
   undroppable: false
-  unstashable: false
-  locked: true
-  uses: 5
-  active_spell: trick_wand_ability
+  preuse: true
+  uses: 8
+  mana_max: 50
+  mana: 50
+  mana_regeneration: 10
+  active_spell: melofors_trickwand
   spells:
-    - trick_wand_ability
-  display_name: "$name"
+    - melofors_trickwand
+    - expelliarmus_trickwand
+    - herbifors_trickwand
+    - colloshoo_trickwand
+    - stupefy_trickwand
+    - obscuro_trickwand
+    - incarcerous_trickwand
+    - tarantallegra_trickwand
+  display_name: "$name &8> &6$spell"
   lore:
     - "$description"
     - ""

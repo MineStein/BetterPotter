@@ -1,5 +1,6 @@
-appearances:
+menu_appearances:
   inherit: appearanceshop
+  # Will have the icon when holding a wand, an X when not
   icon: diamond_axe{CustomModelData:154}
   icon_disabled: iron_axe{CustomModelData:10}
   hidden: true
@@ -7,7 +8,7 @@ appearances:
   parameters:
     cost_type: none
     requirements:
-      - wand: randomizedpotterwand
+      - wand: playerwand
     options:
       - item: appearance_black
         requirements:

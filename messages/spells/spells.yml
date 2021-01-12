@@ -652,10 +652,24 @@ spells:
       Mends minor wounds.
   episkey|2:
     upgrade_description: |-
-      Increased healing.
+      Increased duration.
+      &3(6s->7s)
   episkey|3:
     upgrade_description: |-
-      Increased healing.
+      Increased effect.
+      &5(Regeneration II->Regeneration III)
+  episkey|4:
+    upgrade_description: |-
+      Increased duration.
+      &3(7s->8s)
+  episkey|5:
+    upgrade_description: |-
+      Increased duration.
+      &3(8s->9s)
+  episkey|6:
+    upgrade_description: |-
+      Increased duration.
+      &3(9s->10s)
 
   epoximise:
     name: >-
@@ -1386,21 +1400,53 @@ spells:
 
   lumos:
     cast: ""
+    cancel: "a:&7You stash your wand, putting out your light"
     name: >-
       Lumos
     description: >-
       Lights up the tip of your wand.
   lumos|2:
     upgrade_description: |-
-      Increased range.
       Increased duration.
+      &3(10s->12s)
   lumos|3:
     upgrade_description: |-
-      Increased range.
       Increased duration.
+      &3(12s->15s)
+      Increased range.
+      &3(4m->6m)
   lumos|4:
     upgrade_description: |-
       Increased duration.
+      &3(15s->18s)
+  lumos|5:
+    upgrade_description: |-
+      Increased duration.
+      &3(18s->20s)
+      Increased range.
+      &3(6m->8m)
+  lumos|6:
+    upgrade_description: |-
+      Increased duration.
+      &3(20s->22s)
+  lumos|7:
+    upgrade_description: |-
+      Increased duration.
+      &3(22s->25s)
+      Increased range.
+      &3(8m->10m)
+  lumos|8:
+    upgrade_description: |-
+      Increased duration.
+      &3(25s->28s)
+  lumos|9:
+    upgrade_description: |-
+      Increased range.
+      &3(10m->12m)
+  lumos|10:
+    upgrade_description: |-
+      Increased duration.
+      &3(28s->30s)
 
   lumosmaxima:
     name: >-

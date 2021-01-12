@@ -70,7 +70,25 @@ wands:
     name: >-
       &eTrick Wand
     description: >-
-      &6Casts some trick spells.
+      &7A trick wand which can cast some unreliable and flimsy spells&8.
+    wand_instructions_header: |-
+      &8 ----------------------------------------------------
+      &8|
+      &8|   &d&lTRICK WAND BASICS
+      &8|
+    bound_instructions: |-
+      &8| &6>> &3&oYour trick wand cast a few unreliable spells&8.
+      &8|
+      &8| &7> &eLeft-click &7to cast spells&8.
+      &8| &7> &eRight-click&8/&eSwap key &7to open and close the spell menu&8.
+    wand_instructions_footer: |-
+      &8|
+      &8 ----------------------------------------------------
+  trickwandbox:
+    name: >-
+      &eTrick Wand Box &6(Right-Click)
+    description: >-
+      &7Contains a trick wand which can cast some unreliable spells&8.
   flyingcarpet:
     name: >-
       &dFlying Carpet
@@ -101,8 +119,19 @@ wands:
       &dPortkey
     description: >-
       &7A seemingly random object enchanted to take you back home&8.
-  open_wandbox:
+  houseelfstew:
     name: >-
-      Open Wandbox
+      &eHouse Elf Stew
     description: >-
-      Open your wandbox to obtain your very own wand.
+      &7A bowl of stew made by house elves&8. &7Delicious&8!
+  butterbeer:
+    name: >-
+      &eButterbeer
+    description: >-
+      &7A glass containing the popular butterscotch&8-&7based beverage&8.
+  pumpkinjuice:
+    name: >-
+      &6Pumpkin Juice
+    description: >-
+      &7A bottle containing a beverage made from pumpkins&8. &7Manufactured
+      since 1837 by &7&oLondon Pumpkins & Sons&8.

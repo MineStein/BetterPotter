@@ -5,6 +5,9 @@ xptrader:
   actions:
     cast:
       - class: Shop
+  effects:
+    cast:
+      - sound: ui_button_click
   parameters:
     cost_type: mobxp
     options:

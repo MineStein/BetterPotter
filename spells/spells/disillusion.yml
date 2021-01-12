@@ -3,10 +3,12 @@ disillusion:
   icon_disabled: diamond_hoe{CustomModelData:190}
   worth: 15 ac
   upgrade_required_casts: 25
+  quick_cast: false
   actions:
     cast:
       - class: PotionEffect
       - class: Delay
+        delay: $duration
       - class: PlayEffects
   effects:
     appear:
@@ -14,11 +16,10 @@ disillusion:
         sound: magic.vanish
       - class: EffectRing
         particle: smoke_normal
-        location: origin
+        location: target
   parameters:
     target: self
     duration: 3000
-    delay: $duration
     effect: appear
     cooldown: 20000
 

@@ -1,4 +1,49 @@
 spells:
+  stupefy_trickwand:
+    name: >-
+      Weak Stunning Spell
+    description: >-
+      A weak version of the stunning spell.
+  expelliarmus_trickwand:
+    name: >-
+      Unreliable Disarming Charm
+    description: >-
+      An unreliable version of the classic disarming charm.
+    cast: ""
+  herbifors_trickwand:
+    name: >-
+      Unreliable Head-Sprouting Spell
+    description: >-
+      An unreliable version of the head-sprouting spell.
+  colloshoo_trickwand:
+    name: >-
+      Unreliable Stickfast Hex
+    description: >-
+      An unreliable version of the stickfast hex.
+  melofors_trickwand:
+    name: >-
+      Unreliable Pumpkin-Head Jinx
+    description: >-
+      An unreliable version of the pumpkin-head jinx.
+  obscuro_trickwand:
+    name: >-
+      Unreliable Blindfolding Charm
+    description: >-
+      An unreliable version of the blindfolding charm.
+    cast: ""
+  incarcerous_trickwand:
+    name: >-
+      Unreliable Binding Spell
+    description: >-
+      An unreliable version of the binding spell.
+    cast: ""
+  tarantallegra_trickwand:
+    name: >-
+      Unreliable Dancing Hex
+    description: >-
+      An unreliable version of the dancing hex.
+
+
   gillyweed_ability:
     name: >-
       Gillyweed Ability
@@ -11,9 +56,6 @@ spells:
   skeleton_key_ability:
     name: >-
       Skeleton Key Ability
-  trick_wand_ability:
-    name: >-
-      Trick Wand Ability
   peruvian_powder_ability:
     name: >-
       Peruvian Powder Ability
@@ -45,3 +87,17 @@ spells:
   portkey_ability:
     name: >-
       Portkey Ability
+  open_wandbox:
+    name: >-
+      Open Wandbox
+    description: >-
+      Open your wandbox to obtain your very own wand.
+  house_elf_stew_ability:
+    name: >-
+      House Elf Stew Ability
+  butterbeer_ability:
+    name: >-
+      Butterbeer Ability
+  pumpkin_juice_ability:
+    name: >-
+      Pumpkin Juice Ability

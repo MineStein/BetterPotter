@@ -15,7 +15,7 @@ open_wandbox:
         color: FFFFFF
         color2: random
   parameters:
-    command: mgive @tn randomizedpotterwand
+    command: mgive @tn playerwand
     console: true
     target: self
   costs:

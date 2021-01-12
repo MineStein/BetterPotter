@@ -33,11 +33,7 @@ engorgio:
   icon: diamond_axe{CustomModelData:126}
   icon_disabled: diamond_hoe{CustomModelData:126}
   worth: 15 ac
-episkey:
-  icon: diamond_axe{CustomModelData:180}
-  icon_disabled: diamond_hoe{CustomModelData:180}
-  category: herbology
-  worth: 15 ac
+
 evanesco:
   icon: diamond_axe{CustomModelData:161}
   icon_disabled: diamond_hoe{CustomModelData:161}

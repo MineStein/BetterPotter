@@ -1,48 +1,85 @@
-trick_wand_ability:
-  icon: stick
+stupefy_trickwand:
+  inherit: stupefy
   hidden: true
   category: specialty
-  actions:
-    cast:
-      - class: Random
-        actions:
-          - class: Cast
-            spell: stupefy
-            spell_parameters:
-              damage: 0.5
-              duration: 0
-              velocity: 10
-          - class: Cast
-            spell: arrow
-            spell_parameters:
-              damage: 0.5
-              spread: 2
-          - class: Cast
-            spell: expelliarmus
-            spell_parameters:
-              target: self
-              keep_in_inventory: false
-          - class: Cast
-            spell: herbifors
-            spell_parameters:
-              target: self
-              undo: 5000
-          - class: Cast
-            spell: colloshoo
-            spell_parameters:
-              target: self
-          - class: Cast
-            spell: melofors
-            spell_parameters:
-              target: self
-              undo: 8000
-          - class: Cast
-            spell: waddiwasi
-            spell_parameters:
-              target: self
   parameters:
+    cooldown: 6000
+    damage: 1
+    duration: 1000
+  costs:
+    mana: 30
+
+expelliarmus_trickwand:
+  inherit: expelliarmus
+  hidden: true
+  category: specialty
+  parameters:
+    cooldown: 6000
     target: self
-    console: true
-    cost_free: true
-    cooldown_free: true
-    cooldown: 5000
+  costs:
+    mana: 30
+
+herbifors_trickwand:
+  inherit: herbifors
+  hidden: true
+  category: specialty
+  effects:
+    cast:
+      - sound: magic.vanish
+  parameters:
+    cooldown: 6000
+    target: self
+    undo: 10000
+    total_duration: 10000
+  costs:
+    mana: 30
+
+colloshoo_trickwand:
+  inherit: colloshoo
+  hidden: true
+  category: specialty
+  parameters:
+    cooldown: 6000
+    target: self
+  costs:
+    mana: 30
+
+melofors_trickwand:
+  inherit: melofors
+  hidden: true
+  category: specialty
+  parameters:
+    cooldown: 6000
+    target: self
+  costs:
+    mana: 30
+
+obscuro_trickwand:
+  inherit: obscuro
+  hidden: true
+  category: specialty
+  parameters:
+    cooldown: 6000
+    target: self
+  costs:
+    mana: 30
+
+incarcerous_trickwand:
+  inherit: incarcerous
+  hidden: true
+  category: specialty
+  parameters:
+    cooldown: 6000
+    target: self
+  costs:
+    mana: 30
+
+tarantallegra_trickwand:
+  inherit: tarantallegra|4
+  hidden: true
+  category: specialty
+  parameters:
+    cooldown: 6000
+    target: self
+  costs:
+    mana: 30

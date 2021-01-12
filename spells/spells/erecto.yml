@@ -9,6 +9,6 @@ erecto:
       - class: EffectSingle
         sound: magic.teleport
   parameters:
-    undo: 12000
+    undo: 6000
   costs:
     mana: 100

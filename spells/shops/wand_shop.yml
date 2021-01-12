@@ -19,4 +19,4 @@ wandshop:
           - "&7Are you ready for the adventures that await&8?"
           - " &8> &6Click &7to purchase"
         costs:
-          ticket: 1
+          wandticket: 1

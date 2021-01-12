@@ -8,6 +8,29 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Pott
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/PotterPlus/commits/master) for the absolute list.
 
+### 1/11/21
+
+So this was a big one, sorry. Gonna break this down into pieces.
+
+1. **Skript Changes** 2 new Skripts, refactoring
+* force_pack - Forces the user to do `/getrp` on join
+* op_wand_command - Do `/createopwand` while holding a wand to max its cooldown and cost reduction
+* shift_right_click_character_menu - Renamed Skript
+2. **Initial Game Flow Changes** Simplified game flow for admins
+* Completely moved away from the idea of a `randomizedpotterwand`. All player wands are obtained through the following:
+
+   1) Obtain a `wandbox` from a `wandshop`. You will trade your `wandticket` for it, which is your welcome wand.
+
+   2) Right-click to open the wand box and receive your `playerwand`, the new template for player's wands in PotterPlus.
+
+3. **New Items** Three new food items!
+* Added some food items which don't do a whole lot at the moment but could be an opportunity to use a model. Butterbeer, pumpkin juice, and house elf stew items added.
+4. **Trick Wand Rework**
+* Trick wands have been completely reworked to function like a real wand.
+* It has one row of 8 spells.
+5. **Menu Changes** Made it clearer what is a menu spell
+* Every menu spell is prefixed with `menu_`
+
 ### 11/19/20
 
 * New FX Demo spell.

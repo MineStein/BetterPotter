@@ -51,6 +51,3 @@ ticketshop:
 # Disabled because broken and messy.
 colorshop:
   enabled: false
-# Disabled in favor of `wandshop`
-ollivander:
-  enabled: false

@@ -2,7 +2,10 @@
 example: potter
 
 # Gives the correct wand when the player does /wand
-default_wand: randomizedpotterwand
+default_wand: playerwand
+
+# Gives the correct item at the beginning of the player's journey
+welcome_wand: wandticket
 
 # Enables custom crafting recipes
 enable_crafting: true

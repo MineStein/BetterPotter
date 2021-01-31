@@ -1,4 +1,8 @@
 broomshop:
+  enabled: false
+
+shop_brooms:
+  inherit: broomshop
   icon: wooden_hoe{CustomModelData:200}
   category: npc
   parameters:

@@ -1,4 +1,7 @@
 spellshop:
+  enabled: false
+
+shop_spells:
   category: npc
   icon: diamond_axe{CustomModelData:138}
   effects:

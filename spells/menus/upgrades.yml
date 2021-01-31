@@ -1,3 +1,6 @@
+upgrades:
+  enabled: false
+
 menu_upgrades:
   inherit: upgrades
   icon: diamond_axe{CustomModelData:137}

@@ -1,4 +1,4 @@
-actrader:
+menu_actrader:
   icon: iron_axe{CustomModelData:5}
   category: npc
   hidden: true
@@ -9,14 +9,14 @@ actrader:
     options:
       - icon: iron_axe{CustomModelData:5}
         name: "&6Trade Galleons for Academic Credits"
-        cast_spell: actrader_ac
+        cast_spell: menu_actrader_ac
         item: null
       - icon: gold_nugget
         name: "&6Trade Academic Credits for Galleons"
-        cast_spell: actrader_galleons
+        cast_spell: menu_actrader_galleons
         item: null
 
-actrader_ac:
+menu_actrader_ac:
   icon: iron_axe{CustomModelData:5}
   category: npc
   hidden: true
@@ -34,7 +34,7 @@ actrader_ac:
         commands:
           - "mgive @pn ac 5"
 
-actrader_galleons:
+menu_actrader_galleons:
   icon: gold_nugget
   category: npc
   hidden: true

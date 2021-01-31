@@ -9,7 +9,7 @@ menu_character:
   parameters:
     show_unavailable: true
     options:
-      - cast_spell: spellshop
+      - cast_spell: shop_spells
       - cast_spell: menu_upgrades
       - placeholder: true
       - placeholder: true

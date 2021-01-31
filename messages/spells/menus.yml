@@ -1,5 +1,7 @@
 spells:
   menu_character:
+    name: >-
+      &6Character Progress
     title: >-
       &8Character Progress
     selected_free: ""
@@ -28,16 +30,12 @@ spells:
       &aNeed Help?
     title: >-
       &8Server Help
-    description: >-
-      &7Get help for how to play the game&8.
     selected_free: ""
   menu_help_items:
     name: >-
       &6Magical items
     title: >-
       &8Magical Items
-    description: >-
-      &eClick &7to learn about how to use various magical items&8.
     selected_free: ""
   menu_getrp:
     name: >-
@@ -46,3 +44,42 @@ spells:
       &8Would you like the resource pack?
     description: >-
       &7Would you like to use the server resource pack&8?
+  menu_xptrader:
+    name: >-
+      XP Trader
+    title: >-
+      &8XP Trader ($balance&8)
+    insufficient: >-
+      &6XP Trader &8&l> &cI'm sorry, but you don't have enough XP for that. It
+      costs &4$cost&c.
+    selected: >-
+      &8>> &7You traded $cost &7for $item&8.
+
+  # Traders
+
+  menu_actrader:
+    name: >-
+      AC Trader
+    title: >-
+      &8AC Trader
+    selected_free: ""
+  menu_actrader_ac:
+    name: >-
+      AC-Galleon Trader
+    title: >-
+      &8AC Trader ($balance&8)
+    insufficient: >-
+      &6AC Trader &8&l> &cI'm sorry, but you don't have enough Galleons for
+      that. It costs &4$cost&c.
+    selected: >-
+      &8>> &7You traded $cost &7for $item&8.
+  menu_actrader_galleons:
+    name: >-
+      Galleon-AC Trader
+    title: >-
+      &8AC Trader ($balance&8)
+    insufficient: >-
+      &6AC Trader &8&l> &cI'm sorry, but you don't have enough Academic Credits
+      for that. It costs &4$cost&c.
+    selected: >-
+      &8>> &7You traded $cost &7for $item&8.

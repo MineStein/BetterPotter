@@ -8,6 +8,16 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Pott
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/PotterPlus/commits/master) for the absolute list.
 
+### 1/31/21
+
+* Adjusted help menu
+* Fixed crup and kneazle ability text
+* Moved all shops to the `shop_X` namespace
+* Moved all menus to the `menu_X` namespace
+* Updated LICENSE
+* Refreshed README
+* Added `config/_examples.yml` to gitignore to prevent survival from loading
+
 ### 1/11/21
 
 So this was a big one, sorry. Gonna break this down into pieces.

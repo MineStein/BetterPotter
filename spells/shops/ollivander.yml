@@ -1,4 +1,7 @@
-wandshop:
+ollivander:
+  enabled: false
+
+shop_ollivander:
   inherit: ollivander
   icon: wooden_hoe{CustomModelData:100}
   hidden: true

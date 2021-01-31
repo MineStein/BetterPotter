@@ -1,4 +1,4 @@
-bookshop:
+shop_textbooks:
   category: npc
   parameters:
     free: false

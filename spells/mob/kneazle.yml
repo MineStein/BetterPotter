@@ -30,6 +30,6 @@ kneazle_pet:
           offset: 0,1,0
   parameters:
     target: self
-    message: &eThe kneazle purrs&8...
+    message: "&eThe kneazle purrs&8..."
     message_type: action_bar
     cooldown: 10000

@@ -1,3 +1,6 @@
+appearanceshop:
+  enabled: false
+
 menu_appearances:
   inherit: appearanceshop
   # Will have the icon when holding a wand, an X when not

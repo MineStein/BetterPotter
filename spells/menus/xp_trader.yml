@@ -1,4 +1,4 @@
-xptrader:
+menu_xptrader:
   icon: iron_axe{CustomModelData:12}
   category: npc
   hidden: true

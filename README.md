@@ -8,7 +8,7 @@ Required Magic plugin version: [**Magic 8.2**](http://jenkins.elmakers.com/view/
 
 *PotterPlus makes no assurance of backwards-compatibility with previous versions of Minecraft or the Magic plugin. We will always test with the latest versions of both pieces of software.*
 
-#### What's inside PotterPlus?
+### What's inside PotterPlus?
 
 🔮 Over 125 custom spells, each of which gets more powerful as you cast it
 
@@ -20,7 +20,7 @@ Required Magic plugin version: [**Magic 8.2**](http://jenkins.elmakers.com/view/
 
 🔮 **And much more**
 
-#### Learn more
+### Learn more
 
 Visit the [wiki](https://github.com/grisstyl/PotterPlus/wiki) for more information.
 

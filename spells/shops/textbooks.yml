@@ -11,7 +11,7 @@ shop_textbooks:
         lore:
           - "&7A textbook on the use of a variety of charms."
         cost: 10
-      - item: book|careofcreatures
+      - item: book|creatures
         name: "&6Care of Magical Creatures Textbook"
         lore:
           - "&7A textbook detailing working with magical creatures."

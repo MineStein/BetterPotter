@@ -1,4 +1,5 @@
 shop_textbooks:
+  inherit: bookshop
   category: npc
   parameters:
     free: false

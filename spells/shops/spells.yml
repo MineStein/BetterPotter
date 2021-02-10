@@ -2,6 +2,7 @@ spellshop:
   enabled: false
 
 shop_spells:
+  inherit: spellshop
   category: npc
   icon: diamond_axe{CustomModelData:138}
   effects:

@@ -1,14 +1,13 @@
 currency:
   description: ""
   item_name: >-
-    &e$amount &6$type &8(Right-click to deposit)
+    &7$amount &6$type &8(Right-click)
   limit: " &4&lX &cThe limit for &4$type &cis &4$amount&c"
-  deposited: >-
-    &8>> &7Deposited &e$amount &6$type&8, &7balance&8: &6$balance
+  deposited: ""
   earned: |-
-    &8|
-    &8| &7You have obtained &e$earned
-    &8|
+    &8
+    &8| &a&l+ &7You have obtained &e$earned
+    &8
   galleon:
     amount: >-
       &6$amount Galleons
@@ -45,17 +44,26 @@ economy:
     &4Costs&8: &7$cost
 
 shops:
-  cost_lore: >-
-    &7Costs&8: &7$cost
-  insufficient: >-
-    &4Costs&8: &7$cost
-  required_cost_lore: >-
-    &cCosts&8: &7$cost
+  cost_lore: |-
+    &8| &a&lCosts
+    &8| &2- &r$cost
+  insufficient: |-
+    &8| &4&lCosts
+    &8| &c- &r$cost
+  required_cost_lore: |-
+    &8| &4&lCosts
+    &8| &c- &r$cost
   deducted: |-
-    &8|
-    &8| &dYou purchased &r$item &dfor &r$cost
-    &8|
+    &8
+    &8| &6&lPURCHASE
+    &8|&8&m-------------------------------------------------------------------
+    &8| &a&l+ &7Item&8: &r$item
+    &8| &c&l- &7Cost&8: &r$cost
+    &8
   selected: |-
-    &8|
-    &8| &dYou purchased &r$item &dfor &r$cost
-    &8|
+    &8
+    &8| &6&lPURCHASE
+    &8|&8&m-------------------------------------------------------------------
+    &8| &a&l+ &7Item&8: &r$item
+    &8| &c&l- &7Cost&8: &r$cost
+    &8

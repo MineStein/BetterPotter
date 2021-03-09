@@ -2,7 +2,7 @@ madampomfreyscharm:
   icon: diamond_axe{CustomModelData:100}
   icon_disabled: diamond_hoe{CustomModelData:100}
   worth: 25 ac
-  category: specialty
+  category: elective
   tags: noprogression
   actions:
     cast:

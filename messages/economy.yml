@@ -2,12 +2,13 @@ currency:
   description: ""
   item_name: >-
     &e$amount &6$type &8(Right-click to deposit)
-  limit: >-
-    &8>> &cThe limit for &4$type &cis &4$amount&c.
+  limit: " &4&lX &cThe limit for &4$type &cis &4$amount&c"
   deposited: >-
     &8>> &7Deposited &e$amount &6$type&8, &7balance&8: &6$balance
-  earned: >-
-    t:&8+&e$earned
+  earned: |-
+    &8|
+    &8| &7You have obtained &e$earned
+    &8|
   galleon:
     amount: >-
       &6$amount Galleons
@@ -15,26 +16,26 @@ currency:
       &6Galleons
   ac:
     amount: >-
-      &e$amount AC
+      &d$amount AC
     name: >-
-      &eAcademic Credits
+      &dAcademic Credits
     description: >-
       &7AC can be spent at a &eSpell Teacher &7to learn new spells&8.
       &7You can obtain them by completing classes&8.
   cc:
     amount: >-
-      &e$amount CC
+      &5$amount CC
     name: >-
-      &eCompletion Credits
+      &5Completion Credits
     description: >-
       &7CC can be spent at a &eRequired Spell Teacher &7to learn required spells
       for each year&8. &7You can obtain them by completing the
       questline for your year&8.
   mobxp:
     amount: >-
-      &6$amount Mob XP
+      &c$amount Mob XP
     name: >-
-      &6Mob XP
+      &cMob XP
     description: >-
       &7Mob XP can be obtained by fighting creatures and traded to
       obtain other things&8.
@@ -50,7 +51,11 @@ shops:
     &4Costs&8: &7$cost
   required_cost_lore: >-
     &cCosts&8: &7$cost
-  deducted: >-
-    &8>> &dYou purchased &r$item &dfor &r$cost
-  selected: >-
-    &8>> &dYou purchased &r$item &dfor &r$cost
+  deducted: |-
+    &8|
+    &8| &dYou purchased &r$item &dfor &r$cost
+    &8|
+  selected: |-
+    &8|
+    &8| &dYou purchased &r$item &dfor &r$cost
+    &8|

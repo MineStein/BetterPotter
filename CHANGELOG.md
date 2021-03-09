@@ -10,6 +10,10 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 3/8/21
 
+* Fixed Madam Pomfrey's Charm's category
+* Fixed Ollivader/ticket issue
+* Touched up a bunch of economy and currency messaging
+* Added path instructions to base wand
 * New spell Madam Pomfrey's Charm
 * Minor Ferula rework, better healing with a warmup
 

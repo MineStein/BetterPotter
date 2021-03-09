@@ -1,5 +1,5 @@
 wands:
-  wandticket:
+  ticket:
     name: >-
       &dWand Ticket
     description: >-
@@ -28,6 +28,10 @@ wands:
     mana_instructions: |-
       &8|
       &8| &dSpells require &aEnergy &dto be cast&8, &dshown in the &aXP Bar
+    path_instructions: |-
+      &8|
+      &8| &7> &7Collect all of the &d$path &7spells
+      &8| &7> &7to rank up to &d$nextpath &7and earn more &aEnergy
     inventory_instructions: |-
       &8|
       &8| &7> &eOpen your inventory &7to manage hotbar spells&8.
@@ -36,4 +40,3 @@ wands:
     wand_instructions_footer: |-
       &8|
       &8 ----------------------------------------------------
-    enchant_instructions: ""

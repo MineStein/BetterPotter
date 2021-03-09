@@ -5,7 +5,7 @@ example: potter
 default_wand: playerwand
 
 # Gives the correct item at the beginning of the player's journey
-welcome_wand: wandticket
+welcome_wand: ticket
 
 # Enables custom crafting recipes
 enable_crafting: true

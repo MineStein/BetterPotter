@@ -22,4 +22,4 @@ shop_ollivander:
           - "&7Are you ready for the adventures that await&8?"
           - " &8> &6Click &7to purchase"
         costs:
-          wandticket: 1
+          ticket: 1

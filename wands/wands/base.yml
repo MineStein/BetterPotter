@@ -12,17 +12,11 @@ base_wand:
   # Leave wand messages on
   quiet: 0
 
-ticket:
-  enabled: false
-
 potterwand:
   enabled: false
 
 randomizedpotterwand:
   enabled: false
-
-wandticket:
-  inherit: ticket
 
 wandbox:
   inherit: false

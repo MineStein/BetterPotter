@@ -8,8 +8,12 @@ ferula:
   upgrade_required_casts: 50
   actions:
     cast:
+      - class: Delay
+        delay: 3000
       - class: Multiply
         actions:
+          - class: PlayEffects
+            effect: launch
           - class: Brush
             actions:
               - class: Spread
@@ -19,9 +23,18 @@ ferula:
                       - class: AreaOfEffect
                         actions:
                           - class: Heal
+                          - class: PotionEffect
   effects:
     cast:
       - sound: magic.shimmer
+        source_location: feet
+        effectlib:
+          class: AnimatedBall
+          particle: spell_mob
+          color: e83232
+          duration: 3000
+    launch:
+      - sound: potterplus.impact
     projectile:
       - location: origin
         effectlib:
@@ -32,10 +45,10 @@ ferula:
   parameters:
     target: none
     target_type: LivingEntity
-    multiply: 4
-    radius: 1.5
-    amount: 0.5
-    cooldown: 16000
+    multiply: 2
+    radius: 2
+    amount: 1
+    cooldown: 12000
     brush: paper
     center_probability: 0.9
     outer_probability: 0.5
@@ -48,6 +61,11 @@ ferula:
     uses_brush: false
     delay: 100
     target_self: true
+    duration: 8000
+    add_effects:
+      absorption: 0
+      regeneration: 0
+    warmup: 3000
   costs:
     mana: 60
 
@@ -62,13 +80,13 @@ ferula|3:
   upgrade_required_path: year4
   upgrade_required_casts: 100
   parameters:
-    multiply: 6
+    multiply: 4
 
 ferula|4:
   upgrade_required_path: year5
   upgrade_required_casts: 125
   parameters:
-    amount: 1
+    amount: 1.5
     yaw_max: 35
     pitch_max: 6
 
@@ -76,6 +94,6 @@ ferula|5:
   upgrade_required_path: year6
   upgrade_required_casts: 150
   parameters:
-    multiply: 8
+    multiply: 6
     yaw_max: 30
     pitch_max: 4

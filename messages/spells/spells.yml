@@ -1496,6 +1496,13 @@ spells:
       &3(24m->28m)
       No chance of fizzling.
 
+  madampomfreyscharm:
+    name: >-
+      Madam Pomfrey's Charm
+    description: >-
+      A unique healing charm which grants a moderate amount of regeneration
+      and absorption.
+
   melofors:
     name: >-
       Melofors

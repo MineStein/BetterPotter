@@ -8,6 +8,11 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Pott
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/PotterPlus/commits/master) for the absolute list.
 
+### 3/8/21
+
+* New spell Madam Pomfrey's Charm
+* Minor Ferula rework, better healing with a warmup
+
 ### 2/12/21
 
 * Added `example.yml` to root

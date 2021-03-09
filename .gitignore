@@ -1,4 +1,5 @@
-/data/
-/defaults/
 /config/database.yml
 /config/_examples.yml
+/data/
+/defaults/
+/examples/

@@ -1,5 +1,0 @@
-skeleton_key_ability:
-  inherit: key_ability
-  category: specialty
-  parameters:
-    destructible: doors

@@ -15,28 +15,24 @@ wands:
     name: >-
       Wand
     wand_instructions_header: |-
-      &8 ----------------------------------------------------
-      &8|
-      &8|   &d&lWAND BASICS
+      &8
     bound_instructions: |-
-      &8|
-      &8| &cYour wand is bound to you and cannot be dropped
+      &8|  &cYour wand is bound to you and cannot be dropped
     spell_instructions: |-
       &8|
-      &8| &7> &eSwing &7to cast spells&8.
-      &8| &7> &eUse Item &7or &eDrop &7to open and close the spell menu&8.
+      &8| &7- &eSwing &7to cast spells&8.
+      &8| &7- &eUse Item &7or &eDrop &7to open and close the spell menu&8.
     mana_instructions: |-
       &8|
-      &8| &dSpells require &aEnergy &dto be cast&8, &dshown in the &aXP Bar
+      &8|  &dSpells require &aEnergy &dto be cast&8, &dshown in the &aXP Bar
     path_instructions: |-
       &8|
-      &8| &7> &7Collect all of the &d$path &7spells
-      &8| &7> &7to rank up to &d$nextpath &7and earn more &aEnergy
+      &8| &7- &7Collect all of the &d$path &7spells to rank
+      &8|   &7up to &d$nextpath &7and earn more &aEnergy
     inventory_instructions: |-
       &8|
-      &8| &7> &eOpen your inventory &7to manage hotbar spells&8.
-      &8| &7> &eUse number keys &7to select the desired spell&8.
-      &8| &7> &eSwap Hands &7to cycle hotbars&8.
+      &8| &7- &eOpen your inventory &7to manage hotbar spells&8.
+      &8| &7- &eUse number keys &7to select the desired spell&8.
+      &8| &7- &eSwap Hands &7to cycle hotbars&8.
     wand_instructions_footer: |-
-      &8|
-      &8 ----------------------------------------------------
+      &8

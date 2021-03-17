@@ -1,4 +1,11 @@
 spells:
+  ability_monsterbook:
+    name: >-
+      Monster Book of Monsters Ability
+    description: >-
+      Opens the Monster Book of Monsters.
+    title: >-
+      The Monster Book of Monsters
   stupefy_trickwand:
     name: >-
       Weak Stunning Spell
@@ -50,22 +57,16 @@ spells:
   portable_swamp_ability:
     name: >-
       Portable Swamp Ability
-  key_ability:
-    name: >-
-      Key Ability
-  skeleton_key_ability:
-    name: >-
-      Skeleton Key Ability
   peruvian_powder_ability:
     name: >-
       Peruvian Powder Ability
-  sword_of_godric_gryffindor_ability:
+  ability_gryffindorsword:
     name: >-
-      Sword of Godric Gryffindor Ability
+      Sword of Godric Gryffindor Shield
     cast: ""
-  sword_of_godric_gryffindor_alt_ability:
+  ability_gryffindorsword_alt:
     name: >-
-      Sword of Godric Gryffindor Alt Ability
+      Sword of Godric Gryffindor Heal
     cast: ""
     cast_self: ""
   basic_blaze_box_ability:

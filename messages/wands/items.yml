@@ -3,7 +3,7 @@ wands:
     name: >-
       &6Basic Blaze Box
     description: >-
-      &4A box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
+      &7A box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
       Enterprises line.
   camera:
     name: >-
@@ -19,7 +19,7 @@ wands:
     name: >-
       &6Deflagration Deluxe
     description: >-
-      &4A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
+      &7A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
       Enterprises line.
   dungbombs:
     name: >-

@@ -1,7 +1,3 @@
-camera:
-  category: specialty
-  enabled: true
-  hidden: true
 debugger:
   enabled: true
   hidden: true

@@ -46,10 +46,10 @@ shop_potions:
     confirm: false
 
 shop_potions_ingredients:
+  inherit: buyshop
   icon: cauldron
   category: npc
   hidden: true
-  inherit: buyshop
   parameters:
     items:
       - item: glass_bottle
@@ -75,10 +75,10 @@ shop_potions_ingredients:
     cost_type: galleon
 
 shop_potions_potions:
+  inherit: shop_potions_ingredients
   icon: cauldron
   category: npc
   hidden: true
-  inherit: shop_potions_ingredients
   parameters:
     items:
       - item: wand|amortentia

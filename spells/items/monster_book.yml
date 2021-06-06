@@ -11,6 +11,7 @@ ability_monsterbook:
       - sound: magic.paperturn
   parameters:
     target: self
+    # TODO Fill in information on beasts
     pages:
       1:
         - "&6&lAcromantula"

@@ -69,9 +69,12 @@ spells:
       Sword of Godric Gryffindor Heal
     cast: ""
     cast_self: ""
-  basic_blaze_box_ability:
+  ability_basicblazebox:
     name: >-
       Basic Blaze Box Ability
+  ability_deflagrationdeluxe:
+    name: >-
+      Deflagration Deluxe Ability
   flying_carpet_ability:
     name: >-
       Flying Carpet Ability

@@ -1,4 +1,4 @@
-deflagration_deluxe_ability:
-  inherit: basic_blaze_box_ability
+ability_deflagrationdeluxe:
+  inherit: ability_basicblazebox
   parameters:
     repeat: 20

@@ -5,10 +5,8 @@ peruvian_powder_ability:
   actions:
     cast:
       - class: CustomProjectile
-        target: other
         actions:
           - class: AreaOfEffect
-            target: any
             actions:
               - class: PotionEffect
   effects:
@@ -33,6 +31,8 @@ peruvian_powder_ability:
           cloudSize: $radius
           duration: $duration
   parameters:
+    cooldown: 1000
+    target: other
     target_source: true
     range: 64
     gravity: 0.05

@@ -1,4 +1,4 @@
-house_elf_stew_ability:
+ability_houseelfstew:
   icon: mushroom_stew
   category: specialty
   hidden: true

@@ -1,4 +1,4 @@
-gillyweed_ability:
+ability_gillyweed:
   inherit: bubblehead
   icon: vine
   category: specialty

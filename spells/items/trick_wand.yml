@@ -1,4 +1,4 @@
-stupefy_trickwand:
+ability_trickwand_stupefy:
   inherit: stupefy
   hidden: true
   category: specialty
@@ -9,7 +9,7 @@ stupefy_trickwand:
   costs:
     mana: 30
 
-expelliarmus_trickwand:
+ability_trickwand_expelliarmus:
   inherit: expelliarmus
   hidden: true
   category: specialty
@@ -19,7 +19,7 @@ expelliarmus_trickwand:
   costs:
     mana: 30
 
-herbifors_trickwand:
+ability_trickwand_herbifors:
   inherit: herbifors
   hidden: true
   category: specialty
@@ -34,7 +34,7 @@ herbifors_trickwand:
   costs:
     mana: 30
 
-colloshoo_trickwand:
+ability_trickwand_colloshoo:
   inherit: colloshoo
   hidden: true
   category: specialty
@@ -44,7 +44,7 @@ colloshoo_trickwand:
   costs:
     mana: 30
 
-melofors_trickwand:
+ability_trickwand_melofors:
   inherit: melofors
   hidden: true
   category: specialty
@@ -54,7 +54,7 @@ melofors_trickwand:
   costs:
     mana: 30
 
-obscuro_trickwand:
+ability_trickwand_obscuro:
   inherit: obscuro
   hidden: true
   category: specialty
@@ -64,7 +64,7 @@ obscuro_trickwand:
   costs:
     mana: 30
 
-incarcerous_trickwand:
+ability_trickwand_incarcerous:
   inherit: incarcerous
   hidden: true
   category: specialty
@@ -74,7 +74,7 @@ incarcerous_trickwand:
   costs:
     mana: 30
 
-tarantallegra_trickwand:
+ability_trickwand_tarantallegra:
   inherit: tarantallegra|4
   hidden: true
   category: specialty

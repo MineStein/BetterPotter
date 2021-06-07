@@ -10,6 +10,7 @@ This is not an absolute record of *every* change that happens, just ones that ar
 
 ### 6/6/21
 
+* All items are now under the `ability_` prefix
 * Peruvian Powder small cooldown
 * Monster Book of Monsters to be finished
 

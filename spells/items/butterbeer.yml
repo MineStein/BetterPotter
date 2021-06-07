@@ -1,4 +1,4 @@
-butterbeer_ability:
+ability_butterbeer:
   icon: honey_bottle
   category: specialty
   hidden: true

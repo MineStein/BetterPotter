@@ -22,16 +22,16 @@ trickwand:
   mana_max: 50
   mana: 50
   mana_regeneration: 10
-  active_spell: melofors_trickwand
+  active_spell: ability_trickwand_melofors
   spells:
-    - melofors_trickwand
-    - expelliarmus_trickwand
-    - herbifors_trickwand
-    - colloshoo_trickwand
-    - stupefy_trickwand
-    - obscuro_trickwand
-    - incarcerous_trickwand
-    - tarantallegra_trickwand
+    - ability_trickwand_melofors
+    - ability_trickwand_expelliarmus
+    - ability_trickwand_herbifors
+    - ability_trickwand_colloshoo
+    - ability_trickwand_stupefy
+    - ability_trickwand_obscuro
+    - ability_trickwand_incarcerous
+    - ability_trickwand_tarantallegra
   display_name: "$name &8> &6$spell"
   lore:
     - "$description"

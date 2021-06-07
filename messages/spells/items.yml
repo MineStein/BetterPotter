@@ -6,58 +6,58 @@ spells:
       Opens the Monster Book of Monsters.
     title: >-
       The Monster Book of Monsters
-  stupefy_trickwand:
+  ability_trickwand_stupefy:
     name: >-
       Weak Stunning Spell
     description: >-
       A weak version of the stunning spell.
-  expelliarmus_trickwand:
+  ability_trickwand_expelliarmus:
     name: >-
       Unreliable Disarming Charm
     description: >-
       An unreliable version of the classic disarming charm.
     cast: ""
-  herbifors_trickwand:
+  ability_trickwand_herbifors:
     name: >-
       Unreliable Head-Sprouting Spell
     description: >-
       An unreliable version of the head-sprouting spell.
-  colloshoo_trickwand:
+  ability_trickwand_colloshoo:
     name: >-
       Unreliable Stickfast Hex
     description: >-
       An unreliable version of the stickfast hex.
-  melofors_trickwand:
+  ability_trickwand_melofors:
     name: >-
       Unreliable Pumpkin-Head Jinx
     description: >-
       An unreliable version of the pumpkin-head jinx.
-  obscuro_trickwand:
+  ability_trickwand_obscuro:
     name: >-
       Unreliable Blindfolding Charm
     description: >-
       An unreliable version of the blindfolding charm.
     cast: ""
-  incarcerous_trickwand:
+  ability_trickwand_incarcerous:
     name: >-
       Unreliable Binding Spell
     description: >-
       An unreliable version of the binding spell.
     cast: ""
-  tarantallegra_trickwand:
+  ability_trickwand_tarantallegra:
     name: >-
       Unreliable Dancing Hex
     description: >-
       An unreliable version of the dancing hex.
 
 
-  gillyweed_ability:
+  ability_gillyweed:
     name: >-
       Gillyweed Ability
-  portable_swamp_ability:
+  ability_portableswamp:
     name: >-
       Portable Swamp Ability
-  peruvian_powder_ability:
+  ability_peruvianpowder:
     name: >-
       Peruvian Powder Ability
   ability_gryffindorsword:
@@ -75,7 +75,7 @@ spells:
   ability_deflagrationdeluxe:
     name: >-
       Deflagration Deluxe Ability
-  flying_carpet_ability:
+  ability_flyingcarpet:
     name: >-
       Flying Carpet Ability
     cast: >-
@@ -88,20 +88,20 @@ spells:
     cursed: ""
     crash: >-
       t:&cCRASH!
-  portkey_ability:
+  ability_portkey:
     name: >-
       Portkey Ability
-  open_wandbox:
+  ability_wandbox:
     name: >-
       Open Wandbox
     description: >-
       Open your wandbox to obtain your very own wand.
-  house_elf_stew_ability:
+  ability_houseelfstew:
     name: >-
       House Elf Stew Ability
-  butterbeer_ability:
+  ability_butterbeer:
     name: >-
       Butterbeer Ability
-  pumpkin_juice_ability:
+  ability_pumpkinjuice:
     name: >-
       Pumpkin Juice Ability

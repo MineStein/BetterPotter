@@ -1,4 +1,4 @@
-portkey_ability:
+ability_portkey:
   hidden: true
   category: specialty
   pvp_restricted: true

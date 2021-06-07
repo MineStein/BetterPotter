@@ -8,9 +8,9 @@ gillyweed:
   left_click: none
   right_click: cast
   uses: 1
-  active_spell: gillyweed_ability
+  active_spell: ability_gillyweed
   spells:
-    - gillyweed_ability
+    - ability_gillyweed
   display_name: "$name"
   lore:
     - "$description"

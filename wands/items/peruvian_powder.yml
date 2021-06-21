@@ -6,9 +6,9 @@ peruvianpowder:
   unstashable: false
   locked: true
   uses: 8
-  active_spell: peruvian_powder_ability
+  active_spell: ability_peruvianpowder
   spells:
-    - peruvian_powder_ability
+    - ability_peruvianpowder
   display_name: "$name"
   lore:
     - "$description"

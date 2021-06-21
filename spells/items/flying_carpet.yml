@@ -1,2 +1,2 @@
-flying_carpet_ability:
+ability_flyingcarpet:
   inherit: broom

@@ -3,7 +3,7 @@ wands:
     name: >-
       &6Basic Blaze Box
     description: >-
-      &4A box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
+      &7A box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
       Enterprises line.
   camera:
     name: >-
@@ -19,33 +19,48 @@ wands:
     name: >-
       &6Deflagration Deluxe
     description: >-
-      &4A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
+      &7A big box of assorted fireworks from Weasley's Wizard Wheezes' Explosive
       Enterprises line.
   dungbombs:
     name: >-
       &6Dungbomb pack
     description: >-
-      &8A horrid-smelling pack of dungboms.
+      &8A horrid-smelling pack of dungbombs.
   gillyweed:
     name: >-
       &2Gillyweed
     description: >-
       &aGrants you the ability to temporarily breathe underwater.
-  swordofgodricgryffindor:
+  gryffindorsword:
     name: >-
       &4Sword of Godric Gryffindor
     description: >-
       &6A sword imbued with great magic. Previously owned by a Hogwarts founder.
+    wand_instructions_header: |-
+      &8
+      &8|  &4&lSword of Godric Gryffindor
+    bound_instructions: |-
+      &8|
+      &8|  &cYour sword is bound to you and cannot be dropped
+      &8|
+      &8| &6> &4Swap&7/&4Drop &7to heal yourself
+      &8| &6> &4Use Item &7to shield yourself
+    mana_instructions: |-
+      &8|
+      &8|  &dAbilities require &aEnergy &dto be cast&8, &dshown in the &aXP Bar
+    wand_instructions_footer: |-
+      &8
   handbag:
     name: >-
       &4Beaded Handbag
     description: >-
       &cA very spacious beaded handbag enchanted to hold many, many items.
-  key:
+  monsterbook:
     name: >-
-      &7Key
+      &cThe Monster Book of Monsters
     description: >-
-      &8Unlocks most doors for a limited time.
+      &7A particularly vicious sentient textbook used for Care of Magical
+      Creatures class&8.
   musicbox:
     name: >-
       &bMusic Box
@@ -61,11 +76,6 @@ wands:
       &2Portable Swamp
     description: >-
       &aDeploys a portable swamp wherever you are.
-  skeletonkey:
-    name: >-
-      &7Skeleton Key
-    description: >-
-      &8Unlocks all doors for a limited time.
   trickwand:
     name: >-
       &eTrick Wand

@@ -1,14 +1,11 @@
 basicblazebox:
   icon: chest
   mode: cast
-  indestructible: false
-  undroppable: false
-  unstashable: false
-  locked: true
+  bound: false
   uses: 8
-  active_spell: basic_blaze_box_ability
+  active_spell: ability_basicblazebox
   spells:
-    - basic_blaze_box_ability
+    - ability_basicblazebox
   display_name: "$name"
   lore:
     - "$description"

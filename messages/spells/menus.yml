@@ -44,6 +44,7 @@ spells:
       &8Would you like the resource pack?
     description: >-
       &7Would you like to use the server resource pack&8?
+    selected_free: ""
   menu_xptrader:
     name: >-
       XP Trader

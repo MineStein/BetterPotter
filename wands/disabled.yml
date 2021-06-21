@@ -109,6 +109,12 @@ floopowder:
 sorting:
   enabled: false
 
+key:
+  enabled: false
+
+skeletonkey:
+  enabled: false
+
 # Brooms
 
 beater:

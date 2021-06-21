@@ -1,8 +1,8 @@
 flyingcarpet:
   inherit: firebolt
-  active_spell: flying_carpet_ability
+  active_spell: ability_flyingcarpet
   spells:
-    - flying_carpet_ability
+    - ability_flyingcarpet
   icon: >-
     white_carpet,orange_carpet,
     magenta_carpet,light_blue_carpet,

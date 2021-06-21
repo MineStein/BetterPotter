@@ -1,4 +1,4 @@
-portable_swamp_ability:
+ability_portableswamp:
   inherit: incarcifors
   icon: water_lily
   category: specialty

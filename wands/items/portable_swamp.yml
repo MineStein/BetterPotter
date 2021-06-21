@@ -6,6 +6,6 @@ portableswamp:
   unstashable: false
   locked: true
   uses: 1
-  active_spell: portable_swamp_ability
+  active_spell: ability_portableswamp
   spells:
-    - portable_swamp_ability
+    - ability_portableswamp

@@ -1,8 +1,3 @@
-# TODO: Figure out what to do with these wands
-
-camera:
-  display_name: "$name"
-
 dungbombs:
   display_name: "$name"
   lore:

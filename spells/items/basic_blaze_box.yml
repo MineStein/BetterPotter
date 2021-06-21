@@ -1,6 +1,6 @@
-basic_blaze_box_ability:
-  inherit: periculum
+ability_basicblazebox:
   icon: firework
+  icon_disabled: firework
   hidden: true
   category: specialty
   effects:
@@ -12,7 +12,7 @@ basic_blaze_box_ability:
           enable_rotation: false
           class: ColoredImage
           fileName: https://i.pinimg.com/originals/64/aa/21/64aa21161101f75b496a418afb7f9eb7.png
-          duration: 2000
+          duration: 2 seconds
           transparency: true
     logo:
       - class: EffectSingle
@@ -44,10 +44,11 @@ basic_blaze_box_ability:
                 delay: 2500
               - class: PlayEffects
   parameters:
+    cooldown: 10 seconds
+    range: 8
     color: random
     color2: random
     repeat: 5
     effect: logo
-    cooldown: 15000
   costs:
     mana: 0

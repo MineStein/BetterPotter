@@ -63,7 +63,7 @@ araniaexumai:
     target: other
     target_type: Spider
     target_count: 8
-    velocity: 15
+    velocity: 20
     gravity: 0.03
     radius: 4
     range: 20

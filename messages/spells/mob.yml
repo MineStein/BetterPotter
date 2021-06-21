@@ -1,13 +1,19 @@
 spells:
-  acromantula_summon:
+  ability_acromantula_summon:
     name: >-
-      Summon
-  acromantula_spit:
+      Acromantula Summon
+    description: >-
+      Summon more acromantula to fight the player
+  ability_acromantula_spit:
     name: >-
       Acromantula Spit
-  acromantula_webbing:
+    description: >-
+      Spit poison on the player
+  ability_acromantula_webbing:
     name: >-
       Acromantula Webbing
+    description: >-
+      Entangle the player in acromantula webbing
   ashwinder_ambient:
     name: >-
       Ashwinder Ambient

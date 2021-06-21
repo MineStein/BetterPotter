@@ -1,7 +1,10 @@
-acromantula_summon:
-  icon: web
+ability_acromantula_summon:
+  icon: spider_spawn_egg
   category: specialty
   hidden: true
+  actions:
+    cast:
+      - class: SpawnEntity
   effects:
     cast:
       - class: EffectSingle
@@ -19,26 +22,36 @@ acromantula_summon:
       - class: SpawnEntity
   parameters:
     entity_types:
-      acromantula: 20
-      acromantula_underling: 40
+      acromantula: 50
+      acromantula_underling: 50
     target: self
     cooldown: 0
-    amount: 2
 
-acromantula_spit:
+ability_acromantula_summon|2:
+  actions:
+    cast:
+      - class: Multiply
+        actions:
+          - class: Spread
+            actions:
+              - class: SpawnEntity
+  parameters:
+    repeat: 2
+
+ability_acromantula_spit:
   inherit: bogies
-  icon: web
+  icon: spider_spawn_egg
   category: specialty
   hidden: true
   parameters:
     range: 24
     cooldown: 0
 
-acromantula_spit|2:
+ability_acromantula_spit|2:
   parameters:
     effect_confusion: 2
 
-acromantula_webbing:
+ability_acromantula_webbing:
   inherit: webbing
   icon: web
   hidden: true
@@ -49,6 +62,6 @@ acromantula_webbing:
     undo_speed: 1
     cooldown: 0
 
-acromantula_webbing|2:
+ability_acromantula_webbing|2:
   parameters:
     radius: 1

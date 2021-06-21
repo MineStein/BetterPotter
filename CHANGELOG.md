@@ -8,6 +8,12 @@ There is a list of current, known issues [here](https://github.com/grisstyl/Pott
 
 This is not an absolute record of *every* change that happens, just ones that are user-facing or significant under the hood. Click [here](https://github.com/grisstyl/PotterPlus/commits/master) for the absolute list.
 
+### 6/21/21
+
+* Arania Exumai buff
+* Economy config fixes
+* Acromantula spell changes
+
 ### 3/9/21
 
 * More economy messaging overhauls
